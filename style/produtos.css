@@ -1,0 +1,36 @@
+.container_txt {
+    width: 90%; /* Define a largura do container como 90% da largura da viewport */
+    max-width: 800px; /* Limita a largura máxima do container a 800px */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    font-size: 18px;
+    position: relative; /* Garante posicionamento relativo para os elementos filhos */
+}
+
+.container_txt img {
+    display: block; /* Remove a exibição inline padrão */
+    width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; /* Garante que a imagem não exceda seu tamanho natural */
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+.image-pair {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.image-pair img {
+    width: 48%; 
+    margin: 1%; /* Adiciona uma margem entre as imagens */
+}
+
+.container_txt h2, .container_txt p {
+    margin: 10px 0; /* Adiciona espaçamento entre os elementos de texto */
+}

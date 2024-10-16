@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style/padrao_also.css">
+    <link rel="stylesheet" href="style/home_also.css">
+    <title>Also Brasil</title>
+    <link rel="website icon" type="png" href="img/logo_contato/logo_solo.png">
+</head>
+<body>
+  <header class="cabecalho_logo">
+    <nav class="menu">
+
+        <div class="logo_texto">
+            <img class="logo_cab" src="img/logo_contato/logo_gif_g.gif" alt="Logo da Empresa" onclick="gif_home()">
+        </div>
+
+        <ul class="navegacao">
+            <li><a class="links_hovers" href="index.html">Home</a></li>
+            <li class="produtos"><a class="links_hovers"href="#">Produtos</a>
+                <ul>
+                    <li><a class="links_hovers" href="suporte_castanha.html">Suporte com Castanhas</a></li>
+                    <li><a class="links_hovers" href="placa_independente.html">Placas Independentes</a></li>
+                    <li><a class="links_hovers" href="placa_automatica.html">Placas Automáticas</a></li>
+                    <li><a class="links_hovers" href="#">Peças e Acessórios</a>
+                        <ul>
+                            <li><a class="links_hovers" href="fusos.html">Fusos</a></li>
+                            <li><a class="links_hovers" href="castanhas.html">Castanhas</a></li>
+                            <li><a class="links_hovers" href="coroa_espiral.html">Coroa / Espiral</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a class="links_hovers" href="sobre_nos.html">Sobre Nós</a></li>
+            <li><a class="links_hovers" href="contato.html">Contato</a></li>
+        </ul>
+
+        <div class="icones">
+
+            <a href="https://wa.me/5519999998489" target="_blank">
+                <img class="whatsapp_icon" src="img/icon/whatsapp.png" alt="Whatsapp">
+            </a>
+
+            <a href="https://www.instagram.com/alsobrasil_/" target="_blank">
+                <img class="instagram_icon" src="img/icon/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=100058817385967" target="_blank">
+                <img class="facebook_icon" src="img/icon/facebook.png" alt="Facebook">
+            </a>
+
+            </div>
+
+            <div class="mobile_menu_icon">
+                <button onclick="menuShow()"><img src="img/menu_mobile/menu_white_36dp.svg" class="icon"></button>
+            </div>
+    </nav>
+
+        <div class="mobile_menu">
+            <ul>
+                <li class="nav_item"><a class="nav_link"href="index.html">Home</a></li>
+                    <li class="nav_item" onclick="mostrar_produtos()"><a class="nav_link" href="#">Produtos</a>
+                        <ul class="navegacao_sub_produtos">
+                            <li class="nav_item"><a class="nav_link" href="suporte_castanha.html">Suporte com Castanhas</a></li>
+                            <li class="nav_item"><a class="nav_link" href="placa_independente.html">Placas Independentes</a></li>
+                            <li class="nav_item"><a class="nav_link" href="placa_automatica.html">Placas Automáticas</a></li>
+                            <li class="nav_item"><a class="nav_link" href="fusos.html">Fusos</a></li>
+                            <li class="nav_item"><a class="nav_link" href="castanhas.html">Castanhas</a></li>
+                            <li class="nav_item"><a class="nav_link" href="coroa_espiral.html">Coroa / Espiral</a></li>
+                        </ul>
+                    </li>
+                <li class="nav_item"><a class="nav_link" href="sobre_nos.html">Sobre Nós</a></li>
+                <li class="nav_item"><a class="nav_link" href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+</header>
+
+    <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+    
+                <div class="card-image">
+                  <img src="img/suporte_com_castanhas/9-suporte-para-placa-platecnica.png" alt="img_01" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Suporte com Castanha</h2>
+                <p class="description"></p>
+                <button class="button" onclick="redirecionar1()">Ver Mais</button>
+              </div>
+            </div>
+    
+    
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+    
+                <div class="card-image">
+                  <img src="img/placa_independente/placa_ind_02.jpg" alt="img_01" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Placas Independentes</h2>
+                <p class="description"> </p>
+                <button class="button" onclick="redirecionar2()">Ver Mais</button>
+              </div>
+            </div>
+    
+    
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+    
+                <div class="card-image">
+                  <img src="img/placa_automatica/placa_aut_06.jpeg" alt="img_01" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Placas Automáticas</h2>
+                <p class="description"> </p>
+                <button class="button" onclick="redirecionar3()">Ver Mais</button>
+              </div>
+            </div>
+    
+    
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+    
+                <div class="card-image">
+                  <img src="img/fusos/fuso_01.jpeg" alt="img_01" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Fusos</h2>
+                <p class="description"> </p>
+                <button class="button" onclick="redirecionar4()">Ver Mais</button>
+              </div>
+            </div>
+    
+    
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+    
+                <div class="card-image">
+                  <img src="img/castnha mole e topo/1ba47f3d702e4170a15559b916ea5e60.jpg" alt="img_01" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Castanhas</h2>
+                <p class="description"> </p>
+                <button class="button" onclick="redirecionar5()">Ver Mais</button>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+    
+                <div class="card-image">
+                  <img src="img/coroa_ou_espiral/1-coroa-espiral-platecnica.jpg" alt="img_01" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Coroa / Espiral</h2>
+                <p class="description"> </p>
+                <button class="button" onclick="redirecionar6()">Ver Mais</button>
+              </div>
+            </div>
+    
+    
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination "></div>
+      </div>
+
+      <div class="container_txt">
+        <h2 class="tit">Also Brasil - comércio e equipamentos</h2>
+        <p class="cont">Bem-vindo à ALSO BRASIL, sua fonte principal de placas de torno de alta qualidade!
+          Na ALSO BRASIL, priorizamos a durabilidade, precisão e desempenho notável em nossos produtos.</p>
+        <p class="cont">
+          Destacamo-nos pela precisão incomparável, projetando cada placa para torno meticulosamente para 
+          medidas precisas e acabamento impecável. Além disso, oferecemos uma ampla variedade de opções.
+        </p>
+        <p class="cont">
+          Nosso compromisso com a satisfação do cliente é inabalável, com uma equipe de atendimento
+          pronta para ajudá-lo a encontrar a placa perfeita. Priorizamos a entrega rápida e segura,
+          garantindo que sua placa para torno chegue sem demora.
+        </p>
+        <p class="cont">
+          A ALSO BRASIL é sua parceira ideal para aumentar sua produtividade na usinagem,
+          oferecendo soluções excepcionais. Não perca tempo! Explore nosso site e dê o próximo passo
+          para aprimorar suas habilidades de usinagem com as melhores placas do mercado.
+        </p>
+      </div>
+      
+  <script src="script/swiper-bundle.min.js"></script>
+  <script src="script/carrosel.js"></script>
+  <script src="script/direcionamentos.js"></script>
+  <script src="script/drawer.js"></script>
+</body>
+</html>

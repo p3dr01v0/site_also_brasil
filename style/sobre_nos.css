@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    max-height: 200vh;
+    max-width: 100vw;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+    align-items: center;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 90%; /* Define a largura do container como 90% da largura da viewport */
+    max-width: 800px; /* Limita a largura máxima do container a 800px */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+

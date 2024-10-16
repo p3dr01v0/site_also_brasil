@@ -1,0 +1,148 @@
+.slide-container{
+    max-width: 1100px;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card{
+    width: 300px;
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.card-image{
+    position: relative;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-sizing: border-box;
+}
+
+.image-content, .card-content{
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content{
+    row-gap: 5px;
+    position: relative;
+    padding: 25px 0;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#00a7e4;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before, .overlay::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: -30px;
+    height: 30px;
+    width: 30px;
+    background-color:#00a7e4;
+}
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    padding: 5px 0;
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #00a7e4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.swiper-navBtn{
+    color: #00a7e4;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover{
+    color: #0056b3;
+}
+
+.swiper-navBtn::before, .swiper-navBtn::after{
+    font-size: 40px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #00a7e4;;
+}
+
+@media screen and (max-width: 768px){
+    .swiper-navBtn{
+        display: none;
+    }
+    .slide-content{
+        margin: 0 10px;
+    }
+}
+
+.container_txt {
+    width: 90%; /* Define a largura do container como 90% da largura da viewport */
+    max-width: 800px; /* Limita a largura máxima do container a 800px */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    font-size: 18px;
+}
+
